@@ -1,0 +1,113 @@
+body {
+    line-height: 1;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+blockquote, q {
+    quotes: none;
+}
+
+blockquote::before, blockquote ::after,
+q::before, q ::after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+
+
+}
+
+body {
+    font: 16px/28px arial, sans-serif;
+    background-color: azure ;
+}
+
+ .container {
+     width: 800px;
+     margin: auto;
+     background-color: darkgrey;
+}
+
+.header {
+    padding: 10px;
+}
+
+.header .judul {
+    font-size: 40px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.header ul li {
+    display: inline-block;
+    margin-top: 25px;
+    margin-right: 10px;
+}
+
+.header a {
+    text-decoration: none;
+    color: #966e00;
+    padding: 10px;
+}
+
+.header a:hover {
+    background-color: darkslategrey;
+    color: lightblue;
+}
+
+.hero {
+    height: 350px;
+    background-image: url(laurence-la-madeleine-wST0gael3UU-unsplash.jpg);
+    background-size: cover;
+    background-position: 0 -170px;
+    border-top: 7px solid #966e00;
+    border-bottom: 7px solid #966e00;
+}
+
+.content {
+    padding: 20px;
+}
+
+.content .halo {
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: cursive;
+}
+
+.content .me {
+    text-align: center;
+    font-family: cursive;
+}
+
+.footer {
+    background-color:  rgba(0, 0, 0, 0.61);
+    padding: 10px;
+}
+
+.footer .author {
+    font-family: cursive;
+    text-align: center;
+    color: white;
+}
+
+.footer .gamelab {
+    font-family: cursive;
+    text-align: center;
+    margin-top: -20;
+    color: white;
+}
+
+.footer .gamelab a {
+    color: #966e00;
+    
+}
+
+
